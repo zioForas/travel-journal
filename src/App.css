@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+
+:root {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body {
+  position: relative;
+  width: 550px;
+  height: 704px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+.header {
+  position: relative;
+  width: 550px;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+  background: #f55a5a;
+  border-radius: 5px;
+}
+
+.center {
+  width: 550px;
+}
+
+.size {
+  position: relative;
+  height: 704px;
+  background: #ffffff;
+}
+
+.title {
+  position: relative;
+  left: 42%;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+  top: 35%;
+}
+
+.world {
+  position: absolute;
+  top: -6px;
+  left: -28px;
+}
+
+.name {
+  font-weight: 200;
+  margin-left: 6px;
+}
+
+.cards {
+  display: flex;
+  margin-top: 16px;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-img {
+  position: relative;
+  width: 125px;
+  height: 168px;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+.where {
+  padding: 5px 13px;
+}
+
+
+.location {
+  width: 10px;
+}
+
+.city {
+  padding: 8px;
+  text-transform: uppercase;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  
+}
+
+.maps {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+
+.luogo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.text {
+  max-width: 350px;
+}
+
+.when {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+}
